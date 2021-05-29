@@ -48,11 +48,8 @@ def display_sidebar(data):
 
     # 2) Choose a statistics
     # st.text([val[1] for val in read_columns.values()])
-    st.markdown('Choose a Statistics (e.g., State-level Changes)')
-    if sel_region:
-        stat_text = sorted(list(set(val[1] for val in read_columns.values() if val[1][0]=='S')))
-    else:
-        stat_text = sorted(list(set(val[1] for val in read_columns.values() if val[1][0]=='C')))
+    st.markdown('Choose a Statistics')
+    stat_text = sorted(list(set(val[1] for val in read_columns.values() if val[1][0]=='S')))
     stat_text = [None] + stat_text[:]
     chosen_stat_text = st.selectbox('Statistics',stat_text)
 

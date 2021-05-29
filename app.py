@@ -11,6 +11,6 @@ st.set_page_config(layout='wide',
                    page_icon="https://www.cowin.gov.in/favicon.ico",
                    page_title="Covid Dashboard")
 st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Go to", list(PAGES.keys()))
+selection = st.sidebar.selectbox("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()

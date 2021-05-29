@@ -123,10 +123,11 @@ def app():
                     final_df = filter_column(final_df, "Pincode", pincode_inp)
 
             with center_column_2:
-                valid_age = [18, 45]
-                age_inp = st.selectbox('Select Minimum Age', [""] + valid_age)
+                valid_age = ["18+", "45+"]
+                age_inp = st.selectbox('Select Age Limit', [""] + valid_age)
                 if age_inp != "":
-                    final_df = filter_column(final_df, "Minimum Age Limit", age_inp)
+                    final_df = filter_column(
+                        final_df, "Minimum Age Limit", int(age_inp[:2]))
 
             with right_column_2:
                 valid_payments = ["Free", "Paid"]
@@ -135,14 +136,13 @@ def app():
                 if pay_inp != "":
                     final_df = filter_column(final_df, "Fees", pay_inp)
 
-            with right_column_2a:
+            with right_column_2:
                 valid_capacity = ["Available"]
-                cap_inp = st.selectbox(
-                    'Select Availablilty', [""] + valid_capacity)
+                cap_inp = "Available"
                 if cap_inp != "":
                     final_df = filter_capacity(final_df, "Available Capacity", 0)
 
-            with right_column_2b:
+            with right_column_2a:
                 valid_vaccines = ["COVISHIELD", "COVAXIN"]
                 vaccine_inp = st.selectbox(
                     'Select Vaccine', [""] + valid_vaccines)
@@ -152,6 +152,11 @@ def app():
             table = deepcopy(final_df)
             table.reset_index(inplace=True, drop=True)
             st.table(table)
+            if final_df.empty:
+                st.error("Sorry, no slots available")
+            else:
+                st.success(
+                    "Book your vaccine slot here: https://selfregistration.cowin.gov.in/")
         else:
             st.error("Unable to fetch data currently, please try after sometime")
 
