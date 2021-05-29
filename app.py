@@ -1,5 +1,6 @@
 import app1
 import app2
+import app3
 import streamlit as st
 
 PAGES = {

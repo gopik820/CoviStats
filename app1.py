@@ -4,8 +4,12 @@ import numpy as np
 import requests
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 from copy import deepcopy
 from fake_useragent import UserAgent
+import webbrowser
+
+
 
 def app():
     # browser_header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
@@ -48,7 +52,18 @@ def app():
         'fee_type': 'Fees'
     }
 
+
     st.title('CoWIN Vaccination Slot Availability')
+
+    left_column_1, center_column_1, right_column_1 = st.beta_columns(3)
+    with left_column_1:
+        if(st.button("Click me to get nearby medical stores")):
+            webbrowser.open(
+                'https://www.google.com/maps/search/medical+store+near+me/')
+    with right_column_1:
+        if(st.button("Click me to get nearby supermarkets")):
+            webbrowser.open(
+                'https://www.google.com/maps/search/supermarkets+near+me/')
 
     valid_states = list(np.unique(mapping_df["state_name"].values))
 
