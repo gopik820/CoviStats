@@ -3,13 +3,6 @@
     <img src="https://newbuildings.org/wp-content/uploads/2015/03/client-logo.png" height="250px"  />
   </a>
 
-  <p align="center">
-    "A site that displays up to date COVID-19 stats"
-    
-</p>
-<center>
-
-
 ## Table of Contents
 
 - [About the Project](#about-the-project)
