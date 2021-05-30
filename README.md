@@ -46,7 +46,7 @@ Run the app
 ## Admins
 Important decisions regarding the project are taken by the following maintainer.
 
-| Kamesh  | Abir  | Sameer  |
+| Arun Govind  | Gopikrishna  | Sai Siddharth  |
 |---|---|---|
 | <img  height="100" width="100" src="images/arungovindm2001.jpeg">     | <img  height="100" width="100" src="images/gopik820.jpeg">  | <img  height="100" width="100" src="images/siddharthc30.jpeg"> |
 | [@arungovindm2001](https://github.com/arungovindm2001)  | [@gopik820](https://github.com/gopik820)     | [@siddharthc30](https://github.com/siddharthc30)  |
