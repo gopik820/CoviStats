@@ -39,6 +39,12 @@ Run the app
 
     streamlit run app.py
 
+## Screenshots
+<img src="images/Screenshot1.png">
+<img src="images/Screenshot2.png">
+<img src="images/Screenshot3.png">
+<img src="images/Screenshot4.png">
+
 ## Admins
 Important decisions regarding the project are taken by the following maintainer.
 
