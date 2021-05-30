@@ -26,7 +26,8 @@ def app():
     # Header and preprocessing
 
     # Set Title
-    st.title('Covid 19 India Status Dashboard')
+    st.title('CoviStats')
+    st.header('Covid 19 India Status Dashboard')
 
     # Initial data load
     update_status = st.markdown("Loading infections data...")
