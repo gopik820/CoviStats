@@ -1,7 +1,3 @@
-<p align="center">
-  <a href="https://github.com/MLH-Fellowship/CryptoDrive">
-    <img src="https://newbuildings.org/wp-content/uploads/2015/03/client-logo.png" height="250px"  />
-  </a>
 
 ## Table of Contents
 
