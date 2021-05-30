@@ -1,11 +1,12 @@
-import app1
-import app2
-import app3
+import dashboard
+import vaccinationSlots
+import aboutus
 import streamlit as st
 
 PAGES = {
-    "Dashboard": app2,
-    "Vaccination Slots": app1
+    "Dashboard": dashboard,
+    "Vaccination Slots": vaccinationSlots,
+    "About Us": aboutus
 }
 st.set_page_config(layout='wide',
                    initial_sidebar_state='expanded',
