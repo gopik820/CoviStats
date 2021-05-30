@@ -4,19 +4,8 @@
   </a>
 
   <p align="center">
-    "A small description about the project and purpose. 🚀"
-    <br /><br />
-    <a href="https://www.cryptodrive.tech"><strong>Browse CryptoDrive</strong></a>
-    <br />
-    <br />
-    <a href="https://en.wikipedia.org/wiki/Decentralization">What is Decentralization</a>
-    ·
-    <a href="https://www.cryptodrive.tech">Live</a>
-    .
-    <a href="https://github.com/MLH-Fellowship/CryptoDrive/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/MLH-Fellowship/CryptoDrive/issues">Request Feature</a>
-  </p>
+    "A site that displays up to date COVID-19 stats"
+    
 </p>
 <center>
 
