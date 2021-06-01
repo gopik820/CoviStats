@@ -1,5 +1,5 @@
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/staedi/streamlit_ncov19/app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/gopik820/covistats/main/app.py)
 
 ## Table of Contents
 
