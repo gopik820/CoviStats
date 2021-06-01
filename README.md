@@ -1,4 +1,6 @@
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/staedi/streamlit_ncov19/app.py)
+
 ## Table of Contents
 
 - [About the Project](#about-the-project)
